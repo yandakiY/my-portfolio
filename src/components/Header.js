@@ -10,7 +10,7 @@ const Header = () => {
         setviewSmallNav(!viewSmallNav)
     }
   return (
-    <header className='font-mono border m-2 p-4 bg-purple-50'>
+    <header className='font-mono border p-2 bg-purple-50'>
         <Navbar handleView={handleviewSmallNav} view={viewSmallNav} />
 
         {/* Navbar si l'ecran est small */}

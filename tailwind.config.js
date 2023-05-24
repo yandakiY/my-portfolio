@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'name': ['DM Serif Display', 'serif'],
+        'title' : ['Pacifico', 'cursive']
+      },
+    },
+    
   },
   plugins: [],
 }

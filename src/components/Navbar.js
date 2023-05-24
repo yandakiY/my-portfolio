@@ -4,7 +4,7 @@ const Navbar = ({handleView , view}) => {
   return (
     <nav className='flex items-center justify-between'>
         {/* Logo part */}
-        <span className='cursor-pointer bg-gray-700 text-white text-2xl rounded-xl p-4 font-bold'>
+        <span className='cursor-pointer bg-gray-700 text-white text-2xl rounded-xl p-4 font-name font-bold'>
             Yandaki.dev
         </span>
 
